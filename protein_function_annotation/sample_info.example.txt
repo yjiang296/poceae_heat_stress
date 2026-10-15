@@ -1,0 +1,7 @@
+### 材料名 蛋白FASTA绝对路径；替换为实际路径，每个材料一行
+B73	/absolute/path/to/proteins/B73.protein.fa
+BTx623	/absolute/path/to/proteins/BTx623.protein.fa
+Bd21	/absolute/path/to/proteins/Bd21.protein.fa
+Bowman	/absolute/path/to/proteins/Bowman.protein.fa
+Yugu1	/absolute/path/to/proteins/Yugu1.protein.fa
+Zhonghua11	/absolute/path/to/proteins/Zhonghua11.protein.fa

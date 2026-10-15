@@ -1,0 +1,24 @@
+{
+  "python": "/absolute/path/to/software/miniforge3/bin/python3",
+  "partition": "x86_64_4cpu",
+  "threads": 8,
+  "chunk_size": 1000,
+  "invalid_policy": "fail",
+  "interproscan": "/absolute/path/to/software/interproscan-5.78-109.0/interproscan.sh",
+  "ipr_runtime": "/absolute/path/to/software/miniforge3/envs/ipr_runtime_5.78",
+  "ipr_applications": [
+    "Pfam",
+    "ProSiteProfiles",
+    "ProSitePatterns",
+    "Gene3D",
+    "SUPERFAMILY",
+    "CDD",
+    "PANTHER"
+  ],
+  "eggnog_env": "/absolute/path/to/software/miniforge3/envs/eggnog_mapper_2.1.13",
+  "eggnog_data": "/absolute/path/to/software/databases/eggnog/5.0.2",
+  "tax_scope": "auto",
+  "go_evidence": "non-electronic",
+  "sensitivity": "very-sensitive",
+  "diamond_block_size": 1
+}
