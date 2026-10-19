@@ -18,6 +18,13 @@
 .DS_Store
 .env
 .env.*
+**/runs/
+**/tests/work*/
+**/tests/validation*/
+**/config/materials/
+**/config/new_materials/
+*.ttf
+*.otf
 *.pem
 *.key
 *.fa

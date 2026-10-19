@@ -1,0 +1,5 @@
+sample	raw_fq_gz_R1	raw_fq_gz_R2	hisat2_index_prefix	annotation_gtf	reference_name
+A_CK_1	/project/reads/A_CK_1_R1.fastq.gz	/project/reads/A_CK_1_R2.fastq.gz	/project/reference/MaterialA	/project/reference/MaterialA.gtf	MaterialA
+A_CK_2	/project/reads/A_CK_2_R1.fastq.gz	/project/reads/A_CK_2_R2.fastq.gz	/project/reference/MaterialA	/project/reference/MaterialA.gtf	MaterialA
+A_heat_1	/project/reads/A_heat_1_R1.fastq.gz	/project/reads/A_heat_1_R2.fastq.gz	/project/reference/MaterialA	/project/reference/MaterialA.gtf	MaterialA
+A_heat_2	/project/reads/A_heat_2_R1.fastq.gz	/project/reads/A_heat_2_R2.fastq.gz	/project/reference/MaterialA	/project/reference/MaterialA.gtf	MaterialA

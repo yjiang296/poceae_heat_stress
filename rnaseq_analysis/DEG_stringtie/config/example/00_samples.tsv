@@ -1,0 +1,5 @@
+sample_id	condition	bam	annotation_gtf
+A_CK_1	CK	/project/map_and_quantify/results/samples/A_CK_1/02_hisat2/A_CK_1.sorted.bam	/project/reference/MaterialA.gtf
+A_CK_2	CK	/project/map_and_quantify/results/samples/A_CK_2/02_hisat2/A_CK_2.sorted.bam	/project/reference/MaterialA.gtf
+A_heat_1	heat	/project/map_and_quantify/results/samples/A_heat_1/02_hisat2/A_heat_1.sorted.bam	/project/reference/MaterialA.gtf
+A_heat_2	heat	/project/map_and_quantify/results/samples/A_heat_2/02_hisat2/A_heat_2.sorted.bam	/project/reference/MaterialA.gtf

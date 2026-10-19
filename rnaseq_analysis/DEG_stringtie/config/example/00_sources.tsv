@@ -1,0 +1,2 @@
+material	counts	tpm	quant_root	method
+MaterialA	/project/map_and_quantify/results/summary/05_counts/MaterialA/MaterialA.gene_count_matrix.tsv	/project/map_and_quantify/results/summary/06_abundance/MaterialA/MaterialA.gene_tpm_matrix.tsv	/project/map_and_quantify	STRINGTIE_PREPDE_FORMULA

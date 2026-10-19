@@ -1,0 +1,16 @@
+name: rnaseq_de
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python>=3.10
+  - numpy
+  - pandas
+  - pip
+  - r-base
+  - bioconductor-deseq2
+  - r-optparse
+  - r-ggplot2
+  - fontconfig
+  - util-linux

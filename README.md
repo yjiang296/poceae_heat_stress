@@ -2,6 +2,10 @@
 
 禾本科比较基因组研究的可复用分析流程。
 
+## StringTie表达定量与差异表达
+
+[rnaseq_analysis](rnaseq_analysis/README.md)：从双端RNA-seq的fastp、HISAT2、StringTie固定注释定量，到同来源counts/TPM矩阵和DESeq2全基因差异分析。保留逐样本定量、逐材料DEG作业、断点重跑、配置填写指南与模拟测试。
+
 ## 蛋白功能注释
 
 [protein_function_annotation](protein_function_annotation/README.md)：对已有基因模型对应的蛋白 FASTA 运行 InterProScan 5 和 eggNOG-mapper，按材料生成独立 Slurm 作业，支持输入检查、分块续跑和原蛋白 ID 恢复。

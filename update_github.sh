@@ -30,6 +30,13 @@ while IFS= read -r FILE || [[ -n "$FILE" ]]; do
  FILES+=("$FILE")
 done < publish_files.txt
 [[ ${#FILES[@]} -gt 0 ]] || { echo '发布清单为空' >&2; exit 1; }
+### 新增RNA流程的源文件也在同步前检查语法；完整统计测试见该流程验证说明。
+for FILE in "${FILES[@]}"; do
+ case "$FILE" in
+  rnaseq_analysis/*.sh) bash -n "$FILE";;
+  rnaseq_analysis/*.py) python3 -c 'import ast,sys; ast.parse(open(sys.argv[1]).read(),filename=sys.argv[1])' "$FILE";;
+ esac
+done
 bash -n update_github.sh
 bash -n protein_function_annotation/main.sh
 bash -n protein_function_annotation/submit_annotation.sh
