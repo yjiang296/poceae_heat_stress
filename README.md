@@ -8,6 +8,12 @@
 
 仓库保存代码、测试、配置模板和说明。实际软件环境、数据库、输入序列、服务器配置和计算结果保存在运行机器上。
 
+## FIRE TSS 绘图与多样本汇总
+
+[FIRE_TSS 单样本绘图](FIRE_TSS/plot_fire_tss_usage.md)：按四列样本表为每个样本提交独立 Slurm 作业，生成 TSS 平均 FIRE coverage 曲线和热图，支持缺失 contig 检查及统一绘图尺度。
+
+[FIRE_TSS 多样本汇总](FIRE_TSS/summarize_tss_usage.md)：汇总平均曲线的峰值/侧翼背景比，绘制散点叠加箱线图，保留绘图表格及可复现快照，输出文件按实际样本数命名。两步共用 [示例样本表](FIRE_TSS/sample_info_config.txt)。
+
 ## 一条命令更新 GitHub
 
 首次使用需要 Git、Python 3，以及本机可用的 GitHub Git 写入认证（SSH key 或 HTTPS 凭据管理器）。Codex 的 GitHub 连接授权不会自动变成本机 Git 凭据。不要把令牌写入脚本或仓库。

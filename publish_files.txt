@@ -16,3 +16,8 @@ protein_function_annotation/scripts/common.py
 protein_function_annotation/scripts/validators.py
 protein_function_annotation/submit_annotation.sh
 protein_function_annotation/tests/test_workflow.py
+FIRE_TSS/plot_fire_tss.sh
+FIRE_TSS/plot_fire_tss_usage.md
+FIRE_TSS/sample_info_config.txt
+FIRE_TSS/summarize_tss.py
+FIRE_TSS/summarize_tss_usage.md
