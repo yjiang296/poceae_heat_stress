@@ -14,13 +14,17 @@
 
 ## FIRE TSS 绘图与多样本汇总
 
-[FIRE_TSS 单样本绘图](FIRE_TSS/plot_fire_tss_usage.md)：按四列样本表为每个样本提交独立 Slurm 作业，生成 TSS 平均 FIRE coverage 曲线和热图，支持缺失 contig 检查及统一绘图尺度。
+本模块已迁移至 [MaizePanGenome_heat_GenoShiLab](https://github.com/yjiang296/MaizePanGenome_heat_GenoShiLab)。
 
-[FIRE_TSS 多样本汇总](FIRE_TSS/summarize_tss_usage.md)：汇总平均曲线的峰值/侧翼背景比，绘制散点叠加箱线图，保留绘图表格及可复现快照，输出文件按实际样本数命名。两步共用 [示例样本表](FIRE_TSS/sample_info_config.txt)。
+[FIRE_TSS 单样本绘图](https://github.com/yjiang296/MaizePanGenome_heat_GenoShiLab/blob/main/FIRE_TSS/plot_fire_tss_usage.md)：按四列样本表为每个样本提交独立 Slurm 作业，生成 TSS 平均 FIRE coverage 曲线和热图，支持缺失 contig 检查及统一绘图尺度。
+
+[FIRE_TSS 多样本汇总](https://github.com/yjiang296/MaizePanGenome_heat_GenoShiLab/blob/main/FIRE_TSS/summarize_tss_usage.md)：汇总平均曲线的峰值/侧翼背景比，绘制散点叠加箱线图，保留绘图表格及可复现快照，输出文件按实际样本数命名。两步共用 [示例样本表](https://github.com/yjiang296/MaizePanGenome_heat_GenoShiLab/blob/main/FIRE_TSS/sample_info_config.txt)。
 
 ## LAI 基因组组装质量评估
 
-[LAI 批量评估](LAI/README.md)：统一短 contig ID，按样本执行 LTR_FINDER、LTRharvest 和 LTR_retriever，通过 Slurm 数组限制最多 50 个样本并行，并在验证成功后定向清理大型中间文件。附 [参考样本表](LAI/sample_info.txt)、使用说明和功能测试。
+本模块已迁移至 [MaizePanGenome_heat_GenoShiLab](https://github.com/yjiang296/MaizePanGenome_heat_GenoShiLab)。
+
+[LAI 批量评估](https://github.com/yjiang296/MaizePanGenome_heat_GenoShiLab/blob/main/LAI/README.md)：统一短 contig ID，按样本执行 LTR_FINDER、LTRharvest 和 LTR_retriever，通过 Slurm 数组限制最多 50 个样本并行，并在验证成功后定向清理大型中间文件。附 [参考样本表](https://github.com/yjiang296/MaizePanGenome_heat_GenoShiLab/blob/main/LAI/sample_info.txt)、使用说明和功能测试。
 
 ## 一条命令更新 GitHub
 

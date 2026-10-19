@@ -41,8 +41,6 @@ bash -n update_github.sh
 bash -n protein_function_annotation/main.sh
 bash -n protein_function_annotation/submit_annotation.sh
 (cd protein_function_annotation && python3 -m unittest discover -s tests -v)
-bash -n LAI/submit_ltr_pipeline.sh
-python3 LAI/test_lai_t6.py
 git add -- "${FILES[@]}"
 git diff --cached --check
 if git diff --cached --quiet; then
