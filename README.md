@@ -14,6 +14,10 @@
 
 [FIRE_TSS 多样本汇总](FIRE_TSS/summarize_tss_usage.md)：汇总平均曲线的峰值/侧翼背景比，绘制散点叠加箱线图，保留绘图表格及可复现快照，输出文件按实际样本数命名。两步共用 [示例样本表](FIRE_TSS/sample_info_config.txt)。
 
+## LAI 基因组组装质量评估
+
+[LAI 批量评估](LAI/README.md)：统一短 contig ID，按样本执行 LTR_FINDER、LTRharvest 和 LTR_retriever，通过 Slurm 数组限制最多 50 个样本并行，并在验证成功后定向清理大型中间文件。附 [参考样本表](LAI/sample_info.txt)、使用说明和功能测试。
+
 ## 一条命令更新 GitHub
 
 首次使用需要 Git、Python 3，以及本机可用的 GitHub Git 写入认证（SSH key 或 HTTPS 凭据管理器）。Codex 的 GitHub 连接授权不会自动变成本机 Git 凭据。不要把令牌写入脚本或仓库。

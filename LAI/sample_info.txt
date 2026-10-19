@@ -1,0 +1,5 @@
+# Reference only: replace all placeholder FASTA paths before running.
+# Columns: sample_id<TAB>absolute_path_to_FASTA
+B73	/path/to/genomes/B73.fa
+05W002	/path/to/genomes/05W002.fa
+0L503002	/path/to/genomes/0L503002.fa

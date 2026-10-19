@@ -1,0 +1,12 @@
+Historical server validation summary (2026-10-20)
+
+Environment: Python 3.6 in the LTR_retriever conda environment.
+11 functional tests passed.
+Bash syntax checks passed.
+Dry-run generation for 210 samples passed; no jobs submitted.
+Array concurrency limit: 50.
+Observed Slurm MaxArraySize: 1001.
+
+This summary replaces raw logs for public distribution.
+HPC account names, absolute server paths, and raw runtime logs are omitted.
+The complete biological workflow was not rerun as part of these tests.

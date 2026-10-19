@@ -21,3 +21,10 @@ FIRE_TSS/plot_fire_tss_usage.md
 FIRE_TSS/sample_info_config.txt
 FIRE_TSS/summarize_tss.py
 FIRE_TSS/summarize_tss_usage.md
+LAI/README.md
+LAI/remote_validation.txt
+LAI/sample_info.txt
+LAI/submit_ltr_pipeline.md
+LAI/submit_ltr_pipeline.sh
+LAI/test_lai_t6.py
+LAI/validation.txt
